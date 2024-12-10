@@ -1,3 +1,15 @@
+* {
+  color: cadetblue;
+}
+
+body {
+  background-color: black;
+}
+
+#titulo {
+  background-color: aquamarine;
+}
+
 div {
   color: blueviolet;
 }
@@ -5,7 +17,6 @@ div {
 h1 {
   color: blue;
 }
-
 .caja {
   width: 600px;
   height: 600px;
@@ -21,5 +32,16 @@ h1 {
   padding-bottom: 30px;
   padding-left: 30px;
   padding: 50px;
-  border: solid 5px brown
+  border: solid 5px brown;
+  box-sizing: border-box;
+  border-radius: 0 40px 0 0;
+  box-shadow: 100px 100px 100px #fff;
+}
+
+div ~ #caja2 {
+  border: solid 20px yellow;
+}
+
+img {
+  filter: drop-shadow(100px -100px 0px blue);
 }
